@@ -2,7 +2,7 @@ export const PROFILE_NAME = 'Jorge Rama Krsna Mandoju';
 export const PROFILE_LOCAL = 'Rio de Janeiro, Brasil';
 export const PROFILE_JOB = 'Fullstack Developer - Stone Age';
 export const PROFILE_FORMATION =
-	'Mestrado em Engeharia de Dados e Conhecimento';
+	'Mestrado em Engenharia de Dados e Conhecimento';
 export const PROFILE_FORMATION_LOCATION =
 	'Universidade Federal do Rio de Janeiro (UFRJ)';
 export const PROFILE_DESCRIPTION =
