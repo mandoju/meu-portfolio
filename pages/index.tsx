@@ -1,12 +1,10 @@
 import Head from 'next/head';
-import Image from 'next/image';
 import styles from '../styles/Home.module.css';
 import 'tailwindcss/tailwind.css';
 import Profile from '../components/Profile';
 import Header from '../components/Header';
 
 import '@fortawesome/fontawesome-free/css/all.min.css';
-import ProfileTechnologies from '../components/ProfileTechnologies';
 
 export default function Home() {
 	return (

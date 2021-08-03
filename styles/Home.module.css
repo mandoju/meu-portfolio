@@ -117,3 +117,11 @@
     flex-direction: column;
   }
 }
+
+.profile-image {
+    max-width: 150px;
+}
+
+.header-image { 
+    background-image: url('../public/img/header.jpeg');
+}
