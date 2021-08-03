@@ -10,6 +10,7 @@ import {
 import ProfileTechnologies from './ProfileTechnologies';
 import Image from 'next/image';
 import avatarImage from '../public/img/avatar.jpeg';
+import styles from '../styles/Home.module.css';
 
 const Profile = () => {
 	return (
@@ -19,11 +20,13 @@ const Profile = () => {
 					<div className="px-6">
 						<div className="flex flex-wrap justify-center">
 							<div className="w-full lg:w-3/12 px-4 lg:order-2 flex justify-center">
-								<div className="relative">
+								<div
+									className={`${styles['profile-image']} -m-16 -ml-20 lg:-ml-16`}
+								>
 									<Image
 										alt="Profile picture"
 										src={avatarImage}
-										className="shadow-xl rounded-full h-auto align-middle border-none absolute -m-16 -ml-20 lg:-ml-16 profile-image"
+										className={`shadow-xl rounded-full h-auto align-middle border-none`}
 									/>
 								</div>
 							</div>

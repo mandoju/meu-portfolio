@@ -119,7 +119,7 @@
 }
 
 .profile-image {
-    max-width: 150px;
+    max-width: 150px !important;
 }
 
 .header-image { 
