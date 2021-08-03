@@ -1,11 +1,12 @@
 import styles from '../styles/Home.module.css';
+import headerImage from '../public/img/header.jpeg';
+import Image from 'next/image';
 
 export const Header = () => {
 	return (
 		<section className="relative block" style={{ height: '500px' }}>
-			<div
-				className={`absolute top-0 w-full h-full bg-center bg-cover ${styles['header-image']}`}
-			>
+			<div className={`absolute top-0 w-full h-full bg-center bg-cover`}>
+				<Image src={headerImage} layout="fill" objectFit="cover" />
 				<span
 					id="blackOverlay"
 					className="w-full h-full absolute opacity-50 bg-black"
